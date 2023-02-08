@@ -14,7 +14,7 @@ function loader(element) {
     element.textContent += '.';
 
     if (element.textContent === '....') {
-      element.textConent = '';
+      element.textContent = '';
     }
   }, 300)
 }
